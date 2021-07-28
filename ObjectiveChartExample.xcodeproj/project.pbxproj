@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		96F0C3F326B182B300AF1927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F0C3F126B182B300AF1927 /* Main.storyboard */; };
 		96F0C3F526B182B400AF1927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F0C3F426B182B400AF1927 /* Assets.xcassets */; };
 		96F0C3F826B182B400AF1927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F0C3F626B182B400AF1927 /* LaunchScreen.storyboard */; };
+		96F0C40126B1831700AF1927 /* ObjectiveChart in Frameworks */ = {isa = PBXBuildFile; productRef = 96F0C40026B1831700AF1927 /* ObjectiveChart */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96F0C40126B1831700AF1927 /* ObjectiveChart in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = ObjectiveChartExample;
+			packageProductDependencies = (
+				96F0C40026B1831700AF1927 /* ObjectiveChart */,
+			);
 			productName = ObjectiveChartExample;
 			productReference = 96F0C3E826B182B300AF1927 /* ObjectiveChartExample.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +115,9 @@
 				Base,
 			);
 			mainGroup = 96F0C3DF26B182B300AF1927;
+			packageReferences = (
+				96F0C3FF26B1831700AF1927 /* XCRemoteSwiftPackageReference "ObjectiveChart" */,
+			);
 			productRefGroup = 96F0C3E926B182B300AF1927 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -296,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.henriquepcosta.ObjectiveChartExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.henriquepcosta.ObjectiveChartExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -341,6 +349,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		96F0C3FF26B1831700AF1927 /* XCRemoteSwiftPackageReference "ObjectiveChart" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tilucasoli/ObjectiveChart";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		96F0C40026B1831700AF1927 /* ObjectiveChart */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 96F0C3FF26B1831700AF1927 /* XCRemoteSwiftPackageReference "ObjectiveChart" */;
+			productName = ObjectiveChart;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 96F0C3E026B182B300AF1927 /* Project object */;
 }
