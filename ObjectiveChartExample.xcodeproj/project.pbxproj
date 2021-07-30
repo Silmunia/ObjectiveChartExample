@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9652090826B2F04C00E082AB /* ObjectiveChart in Frameworks */ = {isa = PBXBuildFile; productRef = 9652090726B2F04C00E082AB /* ObjectiveChart */; };
 		96F0C3EC26B182B300AF1927 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F0C3EB26B182B300AF1927 /* AppDelegate.swift */; };
 		96F0C3EE26B182B300AF1927 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F0C3ED26B182B300AF1927 /* SceneDelegate.swift */; };
 		96F0C3F026B182B300AF1927 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F0C3EF26B182B300AF1927 /* ViewController.swift */; };
 		96F0C3F326B182B300AF1927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F0C3F126B182B300AF1927 /* Main.storyboard */; };
 		96F0C3F526B182B400AF1927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F0C3F426B182B400AF1927 /* Assets.xcassets */; };
 		96F0C3F826B182B400AF1927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F0C3F626B182B400AF1927 /* LaunchScreen.storyboard */; };
-		96F0C40126B1831700AF1927 /* ObjectiveChart in Frameworks */ = {isa = PBXBuildFile; productRef = 96F0C40026B1831700AF1927 /* ObjectiveChart */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96F0C40126B1831700AF1927 /* ObjectiveChart in Frameworks */,
+				9652090826B2F04C00E082AB /* ObjectiveChart in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			);
 			name = ObjectiveChartExample;
 			packageProductDependencies = (
-				96F0C40026B1831700AF1927 /* ObjectiveChart */,
+				9652090726B2F04C00E082AB /* ObjectiveChart */,
 			);
 			productName = ObjectiveChartExample;
 			productReference = 96F0C3E826B182B300AF1927 /* ObjectiveChartExample.app */;
@@ -116,7 +116,7 @@
 			);
 			mainGroup = 96F0C3DF26B182B300AF1927;
 			packageReferences = (
-				96F0C3FF26B1831700AF1927 /* XCRemoteSwiftPackageReference "ObjectiveChart" */,
+				9652090626B2F04C00E082AB /* XCRemoteSwiftPackageReference "ObjectiveChart" */,
 			);
 			productRefGroup = 96F0C3E926B182B300AF1927 /* Products */;
 			projectDirPath = "";
@@ -351,7 +351,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		96F0C3FF26B1831700AF1927 /* XCRemoteSwiftPackageReference "ObjectiveChart" */ = {
+		9652090626B2F04C00E082AB /* XCRemoteSwiftPackageReference "ObjectiveChart" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/tilucasoli/ObjectiveChart";
 			requirement = {
@@ -362,9 +362,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		96F0C40026B1831700AF1927 /* ObjectiveChart */ = {
+		9652090726B2F04C00E082AB /* ObjectiveChart */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 96F0C3FF26B1831700AF1927 /* XCRemoteSwiftPackageReference "ObjectiveChart" */;
+			package = 9652090626B2F04C00E082AB /* XCRemoteSwiftPackageReference "ObjectiveChart" */;
 			productName = ObjectiveChart;
 		};
 /* End XCSwiftPackageProductDependency section */

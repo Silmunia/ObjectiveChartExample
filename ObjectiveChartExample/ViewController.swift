@@ -36,10 +36,10 @@ class ViewController: UIViewController {
         self.view.addSubview(lineChart)
         
         // Creates the data objects for each segment in the pie chart
-        let model: PieChartData = .init(title: "Lucas", value: 50.0)
-        let model2: PieChartData = .init(title: "Lucas", value: 150.0)
-        let model3: PieChartData = .init(title: "Lucas", value: 1250.0)
-        let model4: PieChartData = .init(title: "Lucas", value: 750.0)
+        let model: PieChartData = .init(title: "A", value: 50.0)
+        let model2: PieChartData = .init(title: "B", value: 150.0)
+        let model3: PieChartData = .init(title: "C", value: 1250.0)
+        let model4: PieChartData = .init(title: "D", value: 750.0)
 
         // Creates the pie chart's segments using the data objects
         let component = PieChartComponent(model: model, color: .white)
